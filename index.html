@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">MyPortfolio</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a> <!-- Added this line -->
+            <a href="#contact">Contact</a>
+            <a href="#feedback">Feedback</a>
+        </nav>
+        
+    </header>
+
+    <section id="home" class="home">
+        <div class="home-content">
+            <h3>Hello, I'm</h3>
+            <h1>Sunil Pattupogula</h1>
+            <p>I'm a web developer. I specialize in creating interactive and responsive web applications.</p>
+            <a href="#contact" class="btn-box">Hire Me</a>
+        </div>
+        <div class="home-img">
+            <img src="sunil.jpg" alt="Your Photo">
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-img">
+            <img src="sunil.jpg" alt="About Me">
+        </div>
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h4>I'm a passionate developer who loves coding and solving problems.</h4>
+            <p>I Like creating interactive and responsive websites.</p>
+            
+            <!-- Skills Section -->
+            <div class="skills">
+                <h3>Skills</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>C</li>
+                    <li>C++</li>
+                    <li>Python</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="container">
+        <div class="sub-title">
+            <h2>My <span>Services</span></h2>
+        </div>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Development</h2>
+                <p>I build responsive and dynamic websites using the latest technologies.</p>
+            </div>
+            <div>
+                <i class="fas fa-paint-brush"></i>
+                <h2>UI/UX Design</h2>
+                <p>I design user-friendly interfaces that improve user experience.</p>
+            </div>
+            <div>
+                <i class="fas fa-mobile-alt"></i>
+                <h2>Mobile Development</h2>
+                <p>I create mobile applications that are both functional and beautiful.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="sub-title">
+            <h2>My <span>Projects</span></h2>
+        </div>
+        <div class="projects-list">
+            <div class="project">
+                <h3>Project 1</h3>
+                <p> Interactive Quiz Application</p>
+                <p>Developed a responsive quiz app using HTML, CSS, and JavaScript, featuring dynamic questions, score tracking, and a user-friendly interface..</p>
+                <a href="https://sunil-0507.github.io/quiz-application/" class="btn-box">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>Portfolio Website with Interactive Elements</p>
+                <p>A personal portfolio website showcasing skills and projects with smooth scrolling, interactive service cards, and a lightbox for detailed project views.</p>
+                <a href="#" class="btn-box">View Project</a>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <section id="education" class="education-section">
+        <div class="sub-title">
+            <h2>My <span>Education</span></h2>
+        </div>
+        <div class="education-list">
+            <div class="education-entry">
+                <div class="education-text">
+                    <h2>SRMAP UNIVERSITY</h2>
+                    <p>B.Tech in Computer Science and Engineering</p>
+                    <p>Cum. CGPA 9.40 / 10.0</p>
+                    <p>Grad. May 2026 | Amaravati, Andhra Pradesh</p>
+                </div>
+                <div class="education-image">
+                    <img src="srmap.jpg" alt="SRMAP University">
+                </div>
+            </div>
+            <div class="education-entry">
+                <div class="education-text">
+                    <h2>NARAYANA JUNIOR COLLEGE</h2>
+                    <p>Intermediate in MPC (MATHS, PHYSICS, CHEMISTRY)</p>
+                    <p>May 2022 | Proddatur, Andhra Pradesh</p>
+                    <p>Percentage: 97.8</p>
+                </div>
+                <div class="education-image">
+                    <img src="narayana.jpg" alt="Narayana Junior College">
+                </div>
+            </div>
+            <div class="education-entry">
+                <div class="education-text">
+                    <h2>NARAYANA E.M HIGH SCHOOL</h2>
+                    <p>10<sup>th</sup> standard</p>
+                    <p>May 2020 | Proddatur, Andhra Pradesh</p>
+                    <p>Percentage: 98.6</p>
+                </div>
+                <div class="education-image">
+                    <img src="narayana school.jpg" alt="Narayana E.M High School">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="contact" class="contact">
+        <div class="contact-text">
+            <h2>Contact <span>Me</span></h2>
+            <h4>Let's work together on your next project.</h4>
+            <p>Feel free to reach out if you have any questions or would like to work with me.</p>
+        </div>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="text" placeholder="Subject" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn-box">Send Message</button>
+        </form>
+    </section>
+
+   
+    <section id="feedback" class="feedback">
+        <div class="feedback-text">
+            <h2>Feedback <span>Form</span></h2>
+            <h4>We Value Your Feedback <span>!</span></h4>
+            <h4>Your feedback helps us improve.</h4>
+            <p>Please rate your experience and leave your feedback.</p>
+        </div>
+        <form class="feedback-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+    
+            <label for="rating">Rating:</label>
+            <div class="rating">
+                <input type="radio" id="star5" name="rating" value="5" />
+                <label for="star5" title="5 stars">&#9733;</label>
+                <input type="radio" id="star4" name="rating" value="4" />
+                <label for="star4" title="4 stars">&#9733;</label>
+                <input type="radio" id="star3" name="rating" value="3" />
+                <label for="star3" title="3 stars">&#9733;</label>
+                <input type="radio" id="star2" name="rating" value="2" />
+                <label for="star2" title="2 stars">&#9733;</label>
+                <input type="radio" id="star1" name="rating" value="1" />
+                <label for="star1" title="1 star">&#9733;</label>
+            </div>
+    
+            <label for="message">Feedback:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your feedback" required></textarea>
+    
+            <button type="submit" class="btn-box">Submit Feedback</button>
+        </form>
+    </section>
+    
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2024 Sunil Pattupogula. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
